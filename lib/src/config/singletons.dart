@@ -5,6 +5,5 @@ import '../entity/config_entity.dart';
 final cfg = GetIt.instance;
 
 void setupGetIt() {
-  print('llego');
   cfg.registerSingleton<ConfigEntity>(ConfigEntity());
 }
